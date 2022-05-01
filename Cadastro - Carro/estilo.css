@@ -1,0 +1,83 @@
+
+body{
+    background-color: rgba(88, 152, 182, 0.952);
+
+}
+.fundo{
+    margin: 0 auto;
+    width: 600px;
+    height: 250px;
+    margin-bottom:10px ;
+    padding: 20px;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 15px;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;    
+}
+
+
+.info{
+    float: left;
+    width: 149px;       
+}
+
+.button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #7abaee;
+    width: 600px;
+    height: 35px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px black;
+    margin-bottom: 10px;
+    
+}
+  
+.button:hover{
+    background-color: #7abaee;
+    color: white;  
+}
+
+#botao{
+    margin: 0 auto;
+    width: 600px;
+    
+}
+
+#resultadoCliente{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 600px;
+    height: 25px; 
+
+}
+
+#resultadoCad{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.cad{
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
