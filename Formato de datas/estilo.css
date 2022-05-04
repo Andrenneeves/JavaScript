@@ -1,0 +1,20 @@
+
+#fundo{
+    margin: 0 auto;
+    background-color: rgb(211, 211, 211);
+    width: 450px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 1px;
+}
+.caixa{
+    margin: 0 auto;
+    width: 300px;
+    background-color: rgb(188, 188, 188);
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
