@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVER DE CASA</title>
+    <style>
+        .card{
+            padding: 20px;
+            width: 300px;
+            position: relative;
+        }
+        .img-card{
+            width: 100%;
+        }
+        .dados-card{
+            position: absolute;
+            bottom: 52px;
+            right: 55px;
+            color: white;
+            font-size: 16pt;
+            text-shadow: 1px 1px 1px black;
+        }
+    </style>
+</head>
+<body>
+    
+<h1>Cadastro de Contatos</h1>
+
+<div>
+    <form id="formContato">
+        <input  type="text" 
+                id="inputNome" 
+                placeholder="Nome do Contato" />
+        <br/>
+        <input  type="tel" 
+                id="inputTelefone" 
+                placeholder="Telefone" />
+        <br/>
+        <input  type="email" 
+                id="inputEmail" 
+                placeholder="email@servidor.com" />
+        <br/>
+        <button type="button" onclick="cadastra()">
+            Cadastrar
+        </button>
+    </form>
+</div>
+
+<div id="divResultados"></div>
+
+<script src="./JS/js.js"></script>
+</body>
+</html>
