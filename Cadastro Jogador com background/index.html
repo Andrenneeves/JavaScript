@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dever 11</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body>
+
+    <div id="fundo">
+        
+        <div class="row" id="titulo">Cadastro de Jogadores</div>
+
+        <div class="container">
+            
+        
+           <form class="info">
+
+            <div class="entraInfo">Nome:</div>
+            <div class="entra"><input id="entraNome" type="text" placeholder="Digite o Nome"></div>
+
+            <br>
+
+            <div class="entraInfo">Idade:</div>
+            <div class="entra"><input id="entraIdade" type="number" placeholder="Digite Idade"></div>
+
+            <br>
+
+            <div class="entraInfo">Peso:</div>
+            <div class="entra"><input id="entraPeso" type="number" placeholder="Ex: 78kg"></div>
+
+            <br>
+
+            <div class="entraInfo">Altura:</div>
+            <div class="entra"><input id="entraAltura" type="number" placeholder="Ex: 180cm"></div>
+
+            <br>
+
+            <div class="entraInfo">Time:</div>
+            <div class="entra"><input id="entraTime" type="text" placeholder="Digite o Time"></div>
+
+            <br>
+
+            <div class="entraInfo">Posição:</div>
+            <div  class="entra">
+                <select id="entraPosicao">
+                <option value="selecione" selected>-Selecione-</option>
+                <option value="armador">Armador</option>
+                <option value="alaArmador">Ala-armador</option>
+                <option value="ala">Ala</option>
+                <option value="alaPivo">Ala-pivô</option>
+                <option value="pivo">Pivô</option>
+               </select>   
+            </div>
+        
+        
+        </form>
+
+        
+
+        <div id="fundoCard" class="container">
+            <div id="h2">
+            <h2>Craque:</h2></div>
+            <div id="card"></div>
+            <Div id="img"></Div>
+
+            
+
+            
+        </div>
+
+        </div>
+
+        
+        <Div  id="botao" ><button class="button" type="button" onclick="cadJoga()">Cadastrar Jogador</button></Div>
+        
+
+        
+
+    
+
+
+
+
+
+    </div>
+    <script src="./mais.js"></script>
+</body>
+</html>
