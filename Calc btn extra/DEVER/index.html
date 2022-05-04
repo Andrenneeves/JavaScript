@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recebimento</title>
+</head>
+<body>
+    <h1>Recebimento de boletos</h1>
+    Valor: <input type="number" id="inputValor" placeholder="Valor"/> <br/>
+    Vencimento: <input type="date" id="dateVencimento"> <br>
+    Matrícula: <input type="number" id="inputMatricula"><br>
+    <button type="button" onclick="recebeBoleto()">Receber</button>
+
+    <script src="./moment-with-locales.min.js"></script>
+    <script src="./boleto.js"></script>
+</body>
+</html>

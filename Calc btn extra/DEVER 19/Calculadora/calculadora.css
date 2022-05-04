@@ -1,0 +1,31 @@
+
+#fundo{
+
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 150px;
+    box-shadow: 1px 1px ;
+    background-color: beige;
+    padding: 15px;
+
+}
+#calculadora{
+    width: 600px;
+    margin: 0 auto;
+   
+}
+
+#visor{
+    margin: 0 auto;
+    width: 600px;
+    text-align: right;
+}
+
+#visorh{
+    margin: 0 auto;
+    width: 600px;
+    text-align: right;
+    
+    padding: 15px;
+    height: 150px;
+}

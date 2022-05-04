@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+
+<body>
+
+   <div class="fundo" >
+    <div id="titulo" class="titulo">Cadastre aqui o seu veículo:</div>
+
+
+    <div >
+    <form  class="formulario" id="form">
+
+      <div  class="info" >Tipo de veículo:</div>
+         <select id="selectipo">
+          <option value="selecione" selected>-Selecione-</option>
+          <option value="carro">Carro</option>
+          <option value="moto">Moto</option>
+         </select>   
+
+       <br>
+        
+       <div  class="info" >Modelo:</div>
+       <div class="info"><input id="entraModelo" type="nome" placeholder="Ex: Vectra"></div>
+
+       <br>
+
+       <div  class="info">Ano:</div>
+       <div class="info"><input id="entraAno" type="number" value="1950" min="1950" max="2023" placeholder="Ex: 12/13"></div>
+
+       <br>
+
+       <div  class="info">Cor:</div>
+       <div class="info"><input id="entraCor" type="nome" placeholder="Ex: Verde"></div>
+
+       <br>
+
+       <div  class="info">Placa:</div>
+       <div class="info"><input id="entraPlaca" type="nome" placeholder="Ex: LMB-2123 "></div>
+
+       <br>
+
+       <div  class="info">Preço:</div>
+       <div class="info"><input id="entraPreco" type="nome"  placeholder="R$10.000,00"></div>        
+
+    </form>
+    </div>
+   </div>
+
+   <Div id="botao" ><button class="button" type="button" onclick="cadCarro()">Cadastrar</button></Div>
+
+   <Div id="botao" ><button class="button" type="button" onclick="visuCarro()">Ver cadastrados</button></Div>
+   
+   <div class="container" id="resultados">
+      <h2>Carros:</h2>
+
+      <div id="listaCarros" class="row"></div>
+      <hr/>
+      <h2>Motos:</h2>
+      <hr />
+      <div id="listaMotos" class="row"></div>
+  </div>
+  
+
+
+
+<script src="./main.js"></script>
+</body>
+</html>
