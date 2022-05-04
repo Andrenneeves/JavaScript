@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dever 12</title>
+</head>
+<body>
+    <h2>Cadastro de Pedidos</h2> 
+
+    <div id="container">
+        
+        <form id="info">
+
+         <div class="entraInfo">Nome:</div>
+         <div class="entraInfo"><input id="entraNome" type="text" placeholder="Digite o Nome"></div>
+
+         <br>
+
+         <div class="entraInfo">Setor:</div>
+         <select id="entraSet">
+            <option value="selecione" selected>-Selecione-</option>
+            <option value="Laticinios">Latícionios</option>
+            <option value="Farmacia">Farmácia</option>
+            <option value="Verdura">Verdura</option>
+            <option value="Bebidas">Bebidas</option>
+           </select>    
+         <br>
+
+         <div class="preco">Preço:</div>
+         <div class="entraInfo"><input id="entraPreco" type="number" placeholder="Ex: 40,00"></div>
+
+         <br>
+         <button type="button" onclick="cadastrar()">Cadastrar Pedidos</button>
+        </form>
+
+    </div>
+
+        
+        <h2>Pedidos:</h2>
+        <div  id="cadpedidos">
+            
+            
+            
+                  
+            </div>
+        </div>
+
+<script src="./main.js"></script>
+
+</body>
+</html>
